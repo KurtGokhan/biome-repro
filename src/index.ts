@@ -7,7 +7,8 @@
  */
 
 import { hey1 } from 'test-import';
-import type { ParsedPath } from 'node:path';
+import { ParsedPath } from 'node:path';
+import { ParsedPath2 } from 'node:path';
 import { hey2 } from 'test';
 
 const parsed: ParsedPath = {} as any;
